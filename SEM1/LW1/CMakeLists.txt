@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.20)
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(a "A. Помогите Даше решить проблему.cpp")
+add_executable(b "B. Сдвинь меня, если сможешь.cpp")
+add_executable(c "C. Покупка друзей.cpp")
+add_executable(d "D. Игра Престолов.cpp")
+add_executable(e "E. Зазеркалье.cpp")
+add_executable(f "F. Студенты всегда хотят спать.cpp")
+add_executable(g "G. Компромисс.cpp")
+add_executable(i "I. Гений трейдинга.cpp")
