@@ -36,6 +36,7 @@ int main() {
 	for (int i = 0; i < n; ++i) {
 		cin >> arr[i];
 	}
+
 	QuickSort(arr, 0, n - 1);
 	for (int i = 0; i < n - 1; ++i) {
 		cout << arr[i] << " ";

@@ -6,6 +6,7 @@ int main() {
 	int n;
 	cin >> n;
 	int* arr = new int[n];
+
 	for (int i = 1; i < n + 1; ++i) {
 		arr[i - 1] = i;
 	}

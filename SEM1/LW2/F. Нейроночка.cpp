@@ -5,7 +5,7 @@ using std::cout, std::cin;
 void InsertionSortDescending(long long* arr, long long n, long long* film_no) {
 	for (int j = 1; j < n; ++j) {
 		long long key = arr[j];
-		long long no_key = film_no[j];
+		long long key_no = film_no[j];
 		long long i = j - 1;
 
 		while (i >= 0 && arr[i] < key) {
@@ -14,7 +14,7 @@ void InsertionSortDescending(long long* arr, long long n, long long* film_no) {
 			--i;
 		}
 		arr[i + 1] = key;
-		film_no[i + 1] = no_key;
+		film_no[i + 1] = key_no;
 	}
 }
 

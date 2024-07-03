@@ -48,8 +48,7 @@ int main() {
 			if (j == 2) {
 				ans += (long long)ab[0] * (long long)ab[1];
 				j = 0;
-				ab[0] = 0;
-				ab[1] = 0;
+				ab[0] = ab[1] = 0;
 			}
 			++i;
 		}

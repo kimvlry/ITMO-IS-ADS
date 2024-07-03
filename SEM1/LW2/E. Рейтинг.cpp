@@ -3,31 +3,31 @@ long long ans = 0;
 
 
 void Merge(int* arr, int left, int mid, int right) {
-	int result[right - left];
+	int res[right - left];
 	int l = 0;
 	int r = 0;
 	while ((left + l < mid) && (mid + r < right)) {
 		if (arr[left + l] <= arr[mid + r]) {
-			result[l + r] = arr[left + l];
+			res[l + r] = arr[left + l];
 			l++;
 			ans += r;
 		}
 		else {
-			result[l + r] = arr[mid + r];
+			res[l + r] = arr[mid + r];
 			r++;
 		}
 	}
 	while (left + l < mid) {
-		result[l + r] = arr[left + l];
+		res[l + r] = arr[left + l];
 		l++;
 		ans += r;
 	}
 	while (mid + r < right) {
-		result[l + r] = arr[mid + r];
+		res[l + r] = arr[mid + r];
 		r++;
 	}
 	for (int i = 0; i < r + l; i++) {
-		arr[left + i] = result[i];
+		arr[left + i] = res[i];
 	}
 }
 

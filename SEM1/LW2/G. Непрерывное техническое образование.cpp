@@ -34,19 +34,19 @@ int main() {
 	std::cin >> n;
 
 	auto* duration = new long long[n];
-	auto* ddl = new long long[n];
+	auto* deadlines = new long long[n];
 	long long max_score = 0;
 	long long days = 0;
 
 	for (long long i = 0; i < n; ++i) {
-		std::cin >> duration[i] >> ddl[i];
+		std::cin >> duration[i] >> deadlines[i];
 	}
 
 	QuickSort(duration, 0, n - 1);
-	QuickSort(ddl, 0, n - 1);
+	QuickSort(deadlines, 0, n - 1);
 
 	for (long long i = 0; i < n; ++i) {
-		max_score += ddl[i];
+		max_score += deadlines[i];
 	}
 	long long cur = 0;
 	for (long long i = 0; i < n; ++i) {
@@ -55,5 +55,5 @@ int main() {
 	}
 	std::cout << max_score - days;
 	delete[] duration;
-	delete[] ddl;
+	delete[] deadlines;
 }
