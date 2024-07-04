@@ -8,7 +8,7 @@ LW 4 - binary heap\
 LW 5 - BST\
 LW 6 - AVL tree\
 LW 7 - coding
----
+
 
 ### 2nd semester
 **LW8 - DFS & BFS, scc & wcc**\
