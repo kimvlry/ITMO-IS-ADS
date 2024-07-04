@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.20)
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(a "A. Ярмарка судьбы.cpp")
+add_executable(b "B. Месть Менады.cpp")
+add_executable(c "C. Порванное ожерелье.cpp")
+add_executable(d "D. Песня Сирин.cpp")
+add_executable(e "E. Беги и не возвращайся.cpp")
+add_executable(f "F. Древняя карта архипелага.cpp")
+add_executable(h "H. Амрита.cpp")
+add_executable(i "I. Гидра или не гидра, вот в чём вопрос....cpp")
