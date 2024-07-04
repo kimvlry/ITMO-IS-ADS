@@ -1,7 +1,7 @@
 # ITMO-IS-ADS
 
 ### 1st semester
-**LW1** - intro: arrays, cycles, if-statements\
+**LW1** - intro: arrays, loops, if-statements\
 **LW2** - sortings\
 **LW3** - linked lists: stack, queue, deque\
 **LW4** - binary heap\
