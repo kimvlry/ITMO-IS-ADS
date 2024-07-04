@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.20)
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(a "A. АРАТАКИ РЕЙГЕН.cpp")
+add_executable(b "B. Истребители демонов.cpp")
+add_executable(d "D. Очень яблок хочется....cpp")
+add_executable(e "E. Грязные делишки.cpp")
+add_executable(f "F. Результат двух миллионов лет работы.cpp")
+add_executable(g "G. Побег Поньо.cpp")
+add_executable(h "H. Мугивары.cpp")
+add_executable(j "J. А где Канеки?.cpp")
