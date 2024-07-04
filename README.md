@@ -1,13 +1,13 @@
 # ITMO-IS-ADS
 
 ### 1st semester
-**LW1 - intro: arrays, cycles, if-statements**\
-**LW2 - sortings**\
-**LW 3 - linked lists: stack, queue, deque**\
-**LW 4 - binary heap** \
-**LW 5 - BST**\
-**LW 6 - AVL tree**\
-**LW 7 - coding**
+LW1 - intro: arrays, cycles, if-statements\
+LW2 - sortings\
+LW 3 - linked lists: stack, queue, deque\
+LW 4 - binary heap\
+LW 5 - BST\
+LW 6 - AVL tree\
+LW 7 - coding
 ---
 
 ### 2nd semester
