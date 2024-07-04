@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(a "A. Ёлки-палки 2.0.cpp")
+add_executable(b "B. Предки - наше всё.cpp")
+add_executable(c "C. И здесь К-ый максимум....cpp")
+add_executable(d "D. Ёлки-палки.cpp")
+add_executable(e "E. Три друга.cpp")
+add_executable(f "F. Подельник.cpp")
+add_executable(g "G. Всё давай. Я очень занятой..cpp")
